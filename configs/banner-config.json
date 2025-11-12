@@ -20,7 +20,7 @@
     },
     "tools": [
       {
-        "name": "Auto Flow",
+        "name": "SnapGen Flow",
         "description": "Prompt automator for Flow. Automate your workflow with ease.",
         "icon": "Sparkles",
         "color": "#8ab4f8",
@@ -29,7 +29,7 @@
         "enabled": true
       },
       {
-        "name": "Auto Whisk",
+        "name": "SnapGen Whisk",
         "description": "Prompt automator for Whisk. Create visual content faster.",
         "icon": "Sparkles",
         "color": "#81c995",
