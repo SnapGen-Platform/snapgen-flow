@@ -1,11 +1,9 @@
 {
   "extName": {
-    "message": "SnapGen Flow",
-    "description": "Extension name"
+    "message": "SnapGen Flow"
   },
   "extDescription": {
-    "message": "Automate bulk video creation on Google Flow (Text-to-Video & Image-to-Video)",
-    "description": "Extension description"
+    "message": "Automate bulk video creation on Google Flow (Text-to-Video & Image-to-Video)"
   },
   "tab_workspace": {
     "message": "Workspace"
@@ -100,11 +98,35 @@
   "model_veo2_quality": {
     "message": "Veo 2 - Quality"
   },
+  "model_veo3_fast": {
+    "message": "Veo 3.1 - Fast"
+  },
   "ratio_landscape": {
     "message": "Landscape (16:9)"
   },
   "ratio_portrait": {
     "message": "Portrait (9:16)"
+  },
+  "mode_text_to_video_full": {
+    "message": "Text to Video"
+  },
+  "mode_image_to_video_full": {
+    "message": "Image to Video"
+  },
+  "mode_images_full": {
+    "message": "Images"
+  },
+  "sort_order_az": {
+    "message": "A-Z"
+  },
+  "sort_order_za": {
+    "message": "Z-A"
+  },
+  "sort_order_newest": {
+    "message": "Newest"
+  },
+  "sort_order_oldest": {
+    "message": "Oldest"
   },
   "detailed_log": {
     "message": "Detailed Log"
