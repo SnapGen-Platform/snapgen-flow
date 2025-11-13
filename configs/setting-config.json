@@ -1,11 +1,94 @@
 {
+  "languages": [
+    {
+      "code": "en",
+      "nativeName": "English",
+      "enabled": true,
+      "isDefault": true,
+      "useEmbedded": true
+    },
+    {
+      "code": "vi",
+      "nativeName": "Tiếng Việt",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": true
+    },
+    {
+      "code": "ja",
+      "nativeName": "日本語",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "ko",
+      "nativeName": "한국어",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "zh-CN",
+      "nativeName": "简体中文",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "es",
+      "nativeName": "Español",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "id",
+      "nativeName": "Bahasa Indonesia",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "th",
+      "nativeName": "ไทย",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "hi",
+      "nativeName": "हिन्दी",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "pt-BR",
+      "nativeName": "Português",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "fr",
+      "nativeName": "Français",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    },
+    {
+      "code": "de",
+      "nativeName": "Deutsch",
+      "enabled": true,
+      "isDefault": false,
+      "useEmbedded": false
+    }
+  ],
   "models": [
     {
       "id": "veo3_fast",
-      "label": {
-        "en": "Veo 3.1 - Fast",
-        "vi": "Veo 3.1 - Nhanh"
-      },
+      "labelKey": "model_veo3_fast",
       "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Fast')]",
       "isDefault": true,
       "enabled": true,
@@ -13,10 +96,7 @@
     },
     {
       "id": "veo2_fast",
-      "label": {
-        "en": "Veo 2 - Fast",
-        "vi": "Veo 2 - Nhanh"
-      },
+      "labelKey": "model_veo2_fast",
       "xpath": "//div[@role='option' and contains(., 'Veo 2 - Fast')]",
       "isDefault": false,
       "enabled": true,
@@ -24,10 +104,7 @@
     },
     {
       "id": "veo3_quality",
-      "label": {
-        "en": "Veo 3.1 - Quality",
-        "vi": "Veo 3.1 - Chất lượng"
-      },
+      "labelKey": "model_veo3_quality",
       "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Quality')]",
       "isDefault": false,
       "enabled": true,
@@ -35,10 +112,7 @@
     },
     {
       "id": "veo2_quality",
-      "label": {
-        "en": "Veo 2 - Quality",
-        "vi": "Veo 2 - Chất lượng"
-      },
+      "labelKey": "model_veo2_quality",
       "xpath": "//div[@role='option' and contains(., 'Veo 2 - Quality')]",
       "isDefault": false,
       "enabled": true,
@@ -48,20 +122,14 @@
   "aspectRatios": [
     {
       "id": "landscape",
-      "label": {
-        "en": "Landscape (16:9)",
-        "vi": "Khổ ngang (16:9)"
-      },
+      "labelKey": "ratio_landscape",
       "xpath": "//div[@role='option' and .//i[normalize-space(text())='crop_landscape']]",
       "isDefault": true,
       "enabled": true
     },
     {
       "id": "portrait",
-      "label": {
-        "en": "Portrait (9:16)",
-        "vi": "Khổ dọc (9:16)"
-      },
+      "labelKey": "ratio_portrait",
       "xpath": "//div[@role='option' and .//i[normalize-space(text())='crop_portrait']]",
       "isDefault": false,
       "enabled": true
@@ -100,30 +168,21 @@
   "modes": [
     {
       "id": "text-to-video",
-      "label": {
-        "en": "Text to Video",
-        "vi": "Văn bản sang Video"
-      },
+      "labelKey": "mode_text_to_video_full",
       "icon": "Type",
       "isDefault": true,
       "enabled": true
     },
     {
       "id": "image-to-video",
-      "label": {
-        "en": "Image to Video",
-        "vi": "Ảnh sang Video"
-      },
+      "labelKey": "mode_image_to_video_full",
       "icon": "ImagePlay",
       "isDefault": false,
       "enabled": true
     },
     {
       "id": "images",
-      "label": {
-        "en": "Images",
-        "vi": "Ảnh"
-      },
+      "labelKey": "mode_images_full",
       "icon": "ImagePlus",
       "isDefault": false,
       "enabled": true
@@ -132,37 +191,25 @@
   "imageSortOrders": [
     {
       "id": "az",
-      "label": {
-        "en": "A-Z",
-        "vi": "A-Z"
-      },
+      "labelKey": "sort_order_az",
       "isDefault": true,
       "enabled": true
     },
     {
       "id": "za",
-      "label": {
-        "en": "Z-A",
-        "vi": "Z-A"
-      },
+      "labelKey": "sort_order_za",
       "isDefault": false,
       "enabled": true
     },
     {
       "id": "newest",
-      "label": {
-        "en": "Newest",
-        "vi": "Mới nhất"
-      },
+      "labelKey": "sort_order_newest",
       "isDefault": false,
       "enabled": true
     },
     {
       "id": "oldest",
-      "label": {
-        "en": "Oldest",
-        "vi": "Cũ nhất"
-      },
+      "labelKey": "sort_order_oldest",
       "isDefault": false,
       "enabled": true
     }
@@ -217,9 +264,9 @@
     "enableGifDownload": false
   },
   "metadata": {
-    "version": "1.0.0",
-    "lastUpdated": "2025-11-13",
-    "compatibleExtensionVersions": ["1.2.0+"],
-    "description": "Dynamic settings configuration for SnapGen Flow Extension"
+    "version": "1.2.6",
+    "lastUpdated": "2025-01-13",
+    "compatibleExtensionVersions": ["1.2.0+", "1.2.5+", "1.2.6+"],
+    "description": "SnapGen Flow Extension - Dynamic Settings Config with Translation Keys and Dynamic Languages (v1.2.6+)"
   }
 }
