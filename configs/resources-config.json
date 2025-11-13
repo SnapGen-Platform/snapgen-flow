@@ -1,0 +1,105 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-13",
+  "resources": {
+    "docs": [
+      {
+        "id": "quick-start",
+        "title": {
+          "en": "Quick Start Guide",
+          "vi": "Hướng Dẫn Nhanh"
+        },
+        "description": {
+          "en": "Get started with SnapGen Flow in 5 minutes",
+          "vi": "Bắt đầu với SnapGen Flow trong 5 phút"
+        },
+        "url": "https://github.com/snapgens/snapgen-flow-extension/blob/main/QUICK_START.md",
+        "type": "github",
+        "badge": "NEW",
+        "enabled": true
+      },
+      {
+        "id": "troubleshooting",
+        "title": {
+          "en": "Troubleshooting Guide",
+          "vi": "Khắc Phục Sự Cố"
+        },
+        "description": {
+          "en": "Common issues and solutions",
+          "vi": "Các vấn đề thường gặp và cách khắc phục"
+        },
+        "url": "https://github.com/snapgens/snapgen-flow-extension/blob/main/TROUBLESHOOTING.md",
+        "type": "github",
+        "enabled": true
+      },
+      {
+        "id": "documentation",
+        "title": {
+          "en": "Full Documentation",
+          "vi": "Tài Liệu Đầy Đủ"
+        },
+        "description": {
+          "en": "Complete documentation index",
+          "vi": "Mục lục tài liệu đầy đủ"
+        },
+        "url": "https://github.com/snapgens/snapgen-flow-extension/blob/main/DOCUMENTATION_INDEX.md",
+        "type": "github",
+        "enabled": true
+      }
+    ],
+    "videos": [
+      {
+        "id": "intro-tutorial",
+        "title": {
+          "en": "SnapGen Flow - Complete Tutorial",
+          "vi": "SnapGen Flow - Hướng Dẫn Đầy Đủ"
+        },
+        "description": {
+          "en": "Learn how to create bulk videos with AI",
+          "vi": "Học cách tạo video hàng loạt với AI"
+        },
+        "url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+        "duration": "5:32",
+        "channel": "SnapGens",
+        "type": "youtube",
+        "badge": "HOT",
+        "enabled": true
+      },
+      {
+        "id": "image-to-video",
+        "title": {
+          "en": "Image-to-Video Tutorial",
+          "vi": "Hướng Dẫn Image-to-Video"
+        },
+        "description": {
+          "en": "Create videos from images step by step",
+          "vi": "Tạo video từ ảnh từng bước"
+        },
+        "url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+        "duration": "3:45",
+        "channel": "SnapGens",
+        "type": "youtube",
+        "enabled": true
+      },
+      {
+        "id": "advanced-tips",
+        "title": {
+          "en": "Advanced Tips & Tricks",
+          "vi": "Mẹo Nâng Cao"
+        },
+        "description": {
+          "en": "Pro techniques for better results",
+          "vi": "Kỹ thuật chuyên nghiệp cho kết quả tốt hơn"
+        },
+        "url": "https://youtube.com/watch?v=dQw4w9WgXcQ",
+        "thumbnail": "https://i.ytimg.com/vi/dQw4w9WgXcQ/maxresdefault.jpg",
+        "duration": "8:15",
+        "channel": "External Creator",
+        "type": "youtube",
+        "enabled": false
+      }
+    ]
+  }
+}
