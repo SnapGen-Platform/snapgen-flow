@@ -1,4 +1,172 @@
 {
+  "models": [
+    {
+      "id": "veo3_fast",
+      "label": {
+        "en": "Veo 3.1 - Fast",
+        "vi": "Veo 3.1 - Nhanh"
+      },
+      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Fast')]",
+      "isDefault": true,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "veo2_fast",
+      "label": {
+        "en": "Veo 2 - Fast",
+        "vi": "Veo 2 - Nhanh"
+      },
+      "xpath": "//div[@role='option' and contains(., 'Veo 2 - Fast')]",
+      "isDefault": false,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "veo3_quality",
+      "label": {
+        "en": "Veo 3.1 - Quality",
+        "vi": "Veo 3.1 - Chất lượng"
+      },
+      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Quality')]",
+      "isDefault": false,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "veo2_quality",
+      "label": {
+        "en": "Veo 2 - Quality",
+        "vi": "Veo 2 - Chất lượng"
+      },
+      "xpath": "//div[@role='option' and contains(., 'Veo 2 - Quality')]",
+      "isDefault": false,
+      "enabled": true,
+      "badge": null
+    }
+  ],
+  "aspectRatios": [
+    {
+      "id": "landscape",
+      "label": {
+        "en": "Landscape (16:9)",
+        "vi": "Khổ ngang (16:9)"
+      },
+      "xpath": "//div[@role='option' and .//i[normalize-space(text())='crop_landscape']]",
+      "isDefault": true,
+      "enabled": true
+    },
+    {
+      "id": "portrait",
+      "label": {
+        "en": "Portrait (9:16)",
+        "vi": "Khổ dọc (9:16)"
+      },
+      "xpath": "//div[@role='option' and .//i[normalize-space(text())='crop_portrait']]",
+      "isDefault": false,
+      "enabled": true
+    }
+  ],
+  "videoCounts": [
+    {
+      "id": "1",
+      "label": "1",
+      "xpath": "//div[@role='option' and .//span[text()='1']]",
+      "isDefault": true,
+      "enabled": true
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "xpath": "//div[@role='option' and .//span[text()='2']]",
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "xpath": "//div[@role='option' and .//span[text()='3']]",
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "xpath": "//div[@role='option' and .//span[text()='4']]",
+      "isDefault": false,
+      "enabled": true
+    }
+  ],
+  "modes": [
+    {
+      "id": "text-to-video",
+      "label": {
+        "en": "Text to Video",
+        "vi": "Văn bản sang Video"
+      },
+      "icon": "Type",
+      "isDefault": true,
+      "enabled": true
+    },
+    {
+      "id": "image-to-video",
+      "label": {
+        "en": "Image to Video",
+        "vi": "Ảnh sang Video"
+      },
+      "icon": "ImagePlay",
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "images",
+      "label": {
+        "en": "Images",
+        "vi": "Ảnh"
+      },
+      "icon": "ImagePlus",
+      "isDefault": false,
+      "enabled": true
+    }
+  ],
+  "imageSortOrders": [
+    {
+      "id": "az",
+      "label": {
+        "en": "A-Z",
+        "vi": "A-Z"
+      },
+      "isDefault": true,
+      "enabled": true
+    },
+    {
+      "id": "za",
+      "label": {
+        "en": "Z-A",
+        "vi": "Z-A"
+      },
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "newest",
+      "label": {
+        "en": "Newest",
+        "vi": "Mới nhất"
+      },
+      "isDefault": false,
+      "enabled": true
+    },
+    {
+      "id": "oldest",
+      "label": {
+        "en": "Oldest",
+        "vi": "Cũ nhất"
+      },
+      "isDefault": false,
+      "enabled": true
+    }
+  ],
   "selectors": {
     "NEW_PROJECT_BUTTON_XPATH": "//button[.//i[normalize-space(text())='add_2']] | (//button[.//i[normalize-space(.)='add_2']])",
     "MODE_DROPDOWN_XPATH": "//button[@role='combobox' and .//i[text()='arrow_drop_down']]",
@@ -9,18 +177,8 @@
     "INITIAL_OVERLAY_DIV_XPATH": "//div[contains(@class, 'kSkErZ')]",
     "SETTINGS_BUTTON_XPATH": "//button[.//div[contains(., 'Veo')] and .//i[normalize-space(text())='volume_up' or normalize-space(text())='volume_off']]",
     "OUTPUT_NUMBER_BUTTON_XPATH": "//button[@role='combobox' and .//span[not(.//i) and (normalize-space(.)='1' or normalize-space(.)='2' or normalize-space(.)='3' or normalize-space(.)='4')]]",
-    "OUTPUT_NUMBER_ONE_XPATH": "//div[@role='option' and .//span[text()='1']]",
-    "OUTPUT_NUMBER_TWO_XPATH": "//div[@role='option' and .//span[text()='2']]",
-    "OUTPUT_NUMBER_THREE_XPATH": "//div[@role='option' and .//span[text()='3']]",
-    "OUTPUT_NUMBER_FOUR_XPATH": "//div[@role='option' and .//span[text()='4']]",
     "MODEL_SELECTION_BUTTON_XPATH": "//button[@role='combobox' and .//span[not(.//i)] and contains(normalize-space(),'Veo')]",
-    "MODEL_VEO_3_FAST_XPATH": "//div[@role='option' and contains(., 'Veo 3.1 - Fast')]",
-    "MODEL_VEO_2_FAST_XPATH": "//div[@role='option' and contains(., 'Veo 2 - Fast')]",
-    "MODEL_VEO_3_QUALITY_XPATH": "//div[@role='option' and contains(., 'Veo 3.1 - Quality')]",
-    "MODEL_VEO_2_QUALITY_XPATH": "//div[@role='option' and contains(., 'Veo 2 - Quality')]",
     "ASPECT_RATIO_DROPDOWN_XPATH": "//button[@role='combobox' and .//i[normalize-space(text())='crop_portrait' or normalize-space(text())='crop_landscape']]",
-    "LANDSCAPE_ASPECT_RATIO_XPATH": "//div[@role='option' and .//i[normalize-space(text())='crop_landscape']]",
-    "PORTRAIT_ASPECT_RATIO_XPATH": "//div[@role='option' and .//i[normalize-space(text())='crop_portrait']]",
     "START_IMAGE_ADD_BUTTON_XPATH": "(//button[.//div[@data-type='button-overlay'] and .//i[text()='add']])[1]",
     "END_IMAGE_ADD_BUTTON_XPATH": "(//button[.//div[@data-type='button-overlay'] and .//i[text()='add']])[2]",
     "HIDDEN_FILE_INPUT_XPATH": "//input[@type='file']",
@@ -42,73 +200,26 @@
     "CLOSE_BUTTON_IN_POPUP_XPATH": ".//button[contains(text(), 'Đóng')]",
     "NOTIFICATION_POPUP_XPATH": "//li[@data-sonner-toast and .//button[contains(text(), 'Đóng')] and not(.//a[contains(text(), 'Tải xuống')])]",
     "GRID_VIEW_BUTTON_XPATH": "(//button[@role='radio' and .//i[normalize-space(text())='grid_on']]) | (//button[.//i[normalize-space(.)='grid_view']])",
-    "UPGRADE_VIDEO_CONTAINER_XPATH": "./ancestor::div[contains(@class, 'sc-ad287003-0')]"
+    "UPGRADE_VIDEO_CONTAINER_XPATH": "./ancestor::div[contains(@class, 'sc-ad287003-0')]",
+    "VIDEOS_XPATH": "//video[@src]"
   },
-  "settings_defaults": {
-    "wait_time_min": 50,
-    "wait_time_max": 80,
-    "start_from": 1,
-    "image_limit": 0,
-    "available_sort_orders": [
-      "A-Z",
-      "Oldest",
-      "Newest"
-    ],
-    "available_aspect_ratios": [
-      "Landscape (16:9)",
-      "Portrate (9:16)"
-    ],
-    "available_models": [
-      "Veo 3.1 - Fast",
-      "Veo 2 - Fast",
-      "Veo 3.1 - Quality",
-      "Veo 2 - Quality"
-    ],
-    "available_video_counts": [
-      "1",
-      "2",
-      "3",
-      "4"
-    ],
-    "available_modes": [
-      "Image to Video",
-      "Text to Video",
-      "Images"
-    ],
-    "default_model": "Veo 3.1 - Fast"
+  "timingSettings": {
+    "minInitialWait": 60,
+    "maxInitialWait": 90,
+    "scanInterval": 2000,
+    "finalScanDuration": 120000,
+    "rateLimitMs": 300
   },
-  "feature_flags": {
-    "enable_history_tab": true,
-    "enable_log_tab": true,
-    "enable_retry_errors_button": true,
-    "enable_headless_mode": true,
-    "enable_1080p_download": false,
-    "enable_gif_download": false
+  "featureFlags": {
+    "enableHistoryTab": true,
+    "enableAutoDownload": true,
+    "enable1080pDownload": false,
+    "enableGifDownload": false
   },
-  "timing_settings": {
-    "webdriver_wait_timeout": 30,
-    "heartbeat_interval_minutes": 3,
-    "final_scan_duration_seconds": 300,
-    "api_timeout_seconds": 15
-  },
-  "startup_message": {
-    "enabled": false,
-    "title": "Massage form System",
-    "content": "Massage form System."
-  },
-  "enforced_settings": {
-    "enabled": false,
-    "login_method": {
-      "force": "None",
-      "hide_selection": false
-    },
-    "run_mode": {
-      "force": "None",
-      "hide_selection": false
-    },
-    "model": {
-      "force": "None",
-      "hide_selection": false
-    }
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2025-11-13",
+    "compatibleExtensionVersions": ["1.2.0+"],
+    "description": "Dynamic settings configuration for SnapGen Flow Extension"
   }
 }
