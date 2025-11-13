@@ -337,5 +337,47 @@
   },
   "banner_support_compact_line2": {
     "message": "Zalo | Telegram"
+  },
+  "generation_settings": {
+    "message": "Generation Settings"
+  },
+  "label_model": {
+    "message": "Model"
+  },
+  "label_videos_per_prompt": {
+    "message": "Videos/prompt"
+  },
+  "desc_videos_per_prompt": {
+    "message": "Number of videos to generate for each prompt"
+  },
+  "label_aspect_ratio": {
+    "message": "Aspect Ratio"
+  },
+  "hint_prompt_prefix": {
+    "message": "When you click Start, each line will automatically be prefixed with \"Prompt #n:\""
+  },
+  "label_progress": {
+    "message": "Progress"
+  },
+  "advanced_settings": {
+    "message": "Advanced Settings"
+  },
+  "refresh_configuration_title": {
+    "message": "Refresh Configuration"
+  },
+  "refresh_configuration_desc": {
+    "message": "Force reload models, aspect ratios, and other dynamic settings from remote server. Use this if you don't see the latest updates."
+  },
+  "button_refresh": {
+    "message": "Refresh"
+  },
+  "button_refreshing": {
+    "message": "Refreshing..."
+  },
+  "refreshing_message": {
+    "message": "⏳ Fetching latest config from server..."
+  },
+  "discover_other_tools": {
+    "message": "Discover Other Tools"
   }
 }
