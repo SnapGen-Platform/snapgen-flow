@@ -1,17 +1,9 @@
 {
   "models": [
     {
-      "id": "veo4_fast",
-      "label": {"en": "Veo 4 - Fast", "vi": "Veo 4 - Nhanh"},
-      "xpath": "//div[@role='option' and contains(., 'Veo 4 - Fast')]",
-      "isDefault": false,
-      "enabled": true,
-      "badge": "new"
-    },
-    {
       "id": "veo3_fast",
       "label": {
-        "en": "Veo 3.1 - Super Fast",
+        "en": "Veo 3.1 - Fast",
         "vi": "Veo 3.1 - Nhanh"
       },
       "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Fast')]",
