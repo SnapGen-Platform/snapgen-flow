@@ -14,8 +14,32 @@
   "tab_settings": {
     "message": "Settings"
   },
-  "tab_more_tools": {
-    "message": "More Tools"
+  "tab_resources": {
+    "message": "Resources"
+  },
+  "resources_description": {
+    "message": "Helpful guides, tutorials, and tools to enhance your experience"
+  },
+  "resources_docs_title": {
+    "message": "Documentation & Guides"
+  },
+  "resources_videos_title": {
+    "message": "Video Tutorials"
+  },
+  "resources_tools_title": {
+    "message": "Helpful Tools"
+  },
+  "resources_loading": {
+    "message": "Loading resources..."
+  },
+  "resources_empty_title": {
+    "message": "No resources available at the moment."
+  },
+  "resources_empty_subtitle": {
+    "message": "Check back later for updates!"
+  },
+  "resources_doc_github": {
+    "message": "📖 GitHub Documentation"
   },
   "mode_text_to_video": {
     "message": "Text-to-Video"
