@@ -26,7 +26,7 @@
         "color": "#8ab4f8",
         "link": "https://snapgens.com/tools/auto-flow",
         "badge": "popular",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "SnapGen Whisk",
@@ -35,7 +35,7 @@
         "color": "#81c995",
         "link": "https://snapgens.com/tools/auto-whisk",
         "badge": "popular",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "Word & Character Counter",
@@ -43,7 +43,7 @@
         "icon": "Type",
         "color": "#fdd663",
         "link": "https://snapgens.com/tools/word-counter",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "Cookie Exporter",
@@ -51,7 +51,7 @@
         "icon": "Cookie",
         "color": "#f28b82",
         "link": "https://snapgens.com/tools/cookie-exporter",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "Image Optimizer Pro",
@@ -60,7 +60,7 @@
         "color": "#ff6b9d",
         "link": "https://snapgens.com/tools/image-optimizer",
         "badge": "new",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "JSON Formatter",
@@ -69,7 +69,7 @@
         "color": "#a8c7fa",
         "link": "https://snapgens.com/tools/json-formatter",
         "badge": "hot",
-        "enabled": true
+        "enabled": false
       }
     ]
   }
