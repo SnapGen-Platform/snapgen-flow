@@ -3,10 +3,10 @@
     {
       "id": "veo3_fast",
       "label": {
-        "en": "Veo 3.1 - Fast",
+        "en": "Veo 3.1 - Super Fast",
         "vi": "Veo 3.1 - Nhanh"
       },
-      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Super Fast')]",
+      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Fast')]",
       "isDefault": true,
       "enabled": true,
       "badge": null
