@@ -14,6 +14,9 @@
   "tab_settings": {
     "message": "Settings"
   },
+  "tab_more_tools": {
+    "message": "More Tools"
+  },
   "tab_resources": {
     "message": "Resources"
   },
