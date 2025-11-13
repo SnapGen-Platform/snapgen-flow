@@ -4,45 +4,60 @@
   "resources": {
     "docs": [
       {
-        "id": "quick-start",
+        "id": "getting-started-en",
         "title": {
-          "en": "Quick Start Guide",
-          "vi": "Hướng Dẫn Nhanh"
+          "en": "Getting Started Guide",
+          "vi": "Getting Started Guide"
         },
         "description": {
-          "en": "Get started with SnapGen Flow in 5 minutes",
-          "vi": "Bắt đầu với SnapGen Flow trong 5 phút"
+          "en": "Create your first AI videos in 5 minutes",
+          "vi": "Create your first AI videos in 5 minutes"
         },
-        "url": "https://github.com/snapgens/snapgen-flow-extension/blob/main/QUICK_START.md",
+        "url": "https://github.com/SnapGen-Platform/snapgen-flow/blob/main/docs/en/getting-started.md",
         "type": "github",
         "badge": "NEW",
         "enabled": true
       },
       {
-        "id": "troubleshooting",
+        "id": "getting-started-vi",
         "title": {
-          "en": "Troubleshooting Guide",
-          "vi": "Khắc Phục Sự Cố"
+          "en": "Hướng Dẫn Bắt Đầu",
+          "vi": "Hướng Dẫn Bắt Đầu"
         },
         "description": {
-          "en": "Common issues and solutions",
-          "vi": "Các vấn đề thường gặp và cách khắc phục"
+          "en": "Tạo video AI đầu tiên trong 5 phút",
+          "vi": "Tạo video AI đầu tiên trong 5 phút"
         },
-        "url": "https://github.com/snapgens/snapgen-flow-extension/blob/main/TROUBLESHOOTING.md",
+        "url": "https://github.com/SnapGen-Platform/snapgen-flow/blob/main/docs/vi/getting-started.md",
+        "type": "github",
+        "badge": "NEW",
+        "enabled": true
+      },
+      {
+        "id": "common-issues-en",
+        "title": {
+          "en": "Common Issues & Solutions",
+          "vi": "Common Issues & Solutions"
+        },
+        "description": {
+          "en": "Quick fixes for common problems",
+          "vi": "Quick fixes for common problems"
+        },
+        "url": "https://github.com/SnapGen-Platform/snapgen-flow/blob/main/docs/en/common-issues.md",
         "type": "github",
         "enabled": true
       },
       {
-        "id": "documentation",
+        "id": "common-issues-vi",
         "title": {
-          "en": "Full Documentation",
-          "vi": "Tài Liệu Đầy Đủ"
+          "en": "Các Lỗi & Cách Khắc Phục",
+          "vi": "Các Lỗi & Cách Khắc Phục"
         },
         "description": {
-          "en": "Complete documentation index",
-          "vi": "Mục lục tài liệu đầy đủ"
+          "en": "Giải pháp nhanh cho các vấn đề thường gặp",
+          "vi": "Giải pháp nhanh cho các vấn đề thường gặp"
         },
-        "url": "https://github.com/snapgens/snapgen-flow-extension/blob/main/DOCUMENTATION_INDEX.md",
+        "url": "https://github.com/SnapGen-Platform/snapgen-flow/blob/main/docs/vi/common-issues.md",
         "type": "github",
         "enabled": true
       }
