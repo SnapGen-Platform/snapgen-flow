@@ -1,7 +1,6 @@
 {
   "models": [
     {
-       {
       "id": "veo4_fast",
       "label": {"en": "Veo 4 - Fast", "vi": "Veo 4 - Nhanh"},
       "xpath": "//div[@role='option' and contains(., 'Veo 4 - Fast')]",
