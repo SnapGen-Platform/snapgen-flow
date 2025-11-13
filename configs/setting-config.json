@@ -6,7 +6,7 @@
         "en": "Veo 3.1 - Fast",
         "vi": "Veo 3.1 - Nhanh"
       },
-      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Fast')]",
+      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Super Fast')]",
       "isDefault": true,
       "enabled": true,
       "badge": null
