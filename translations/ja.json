@@ -1,11 +1,9 @@
 {
   "extName": {
-    "message": "SnapGen Flow",
-    "description": "拡張機能の名前"
+    "message": "SnapGen Flow"
   },
   "extDescription": {
-    "message": "Google Flow での大量動画作成を自動化（テキスト→動画・画像→動画）",
-    "description": "拡張機能の説明"
+    "message": "Google Flowでの一括動画作成を自動化（テキストから動画、画像から動画へ）"
   },
   "tab_workspace": {
     "message": "ワークスペース"
@@ -17,19 +15,19 @@
     "message": "設定"
   },
   "tab_more_tools": {
-    "message": "その他ツール"
+    "message": "その他のツール"
   },
   "mode_text_to_video": {
-    "message": "テキスト→動画"
+    "message": "テキストから動画"
   },
   "mode_image_to_video": {
-    "message": "画像→動画"
+    "message": "画像から動画"
   },
   "prompt_list_label": {
-    "message": "プロンプト一覧"
+    "message": "プロンプトリスト"
   },
   "import_from_file": {
-    "message": "ファイルからインポート（.txt）"
+    "message": "ファイルからインポート (.txt)"
   },
   "button_start": {
     "message": "開始"
@@ -44,79 +42,79 @@
     "message": "再開"
   },
   "status_ready": {
-    "message": "Ready"
+    "message": "準備完了"
   },
   "status_running": {
-    "message": "Running..."
+    "message": "実行中..."
   },
   "status_paused": {
-    "message": "Paused"
+    "message": "一時停止中"
   },
   "status_stopped": {
-    "message": "Stopped"
+    "message": "停止済み"
   },
   "settings_general": {
-    "message": "General Settings"
+    "message": "一般設定"
   },
   "settings_download": {
-    "message": "Download Settings"
+    "message": "ダウンロード設定"
   },
   "videos_per_task": {
-    "message": "Videos per task:"
+    "message": "タスクごとの動画数:"
   },
   "start_from": {
-    "message": "Start from (Prompt/Image):"
+    "message": "開始位置（プロンプト/画像）:"
   },
   "wait_time": {
-    "message": "Video creation wait time (sec):"
+    "message": "動画作成の待機時間（秒）:"
   },
   "model_label": {
-    "message": "Model (Optional):"
+    "message": "モデル（オプション）:"
   },
   "aspect_ratio_label": {
-    "message": "Ratio (T2V & I2V Crop):"
+    "message": "比率（T2V & I2Vクロップ）:"
   },
   "language_label": {
-    "message": "Language:"
+    "message": "言語:"
   },
   "auto_download_label": {
-    "message": "Auto-download videos:"
+    "message": "動画の自動ダウンロード:"
   },
   "configure_folder": {
-    "message": "Configure folder"
+    "message": "フォルダを設定"
   },
   "download_tip": {
-    "message": "Tip: Turn off 'Ask where to save...' in your browser's download settings for seamless auto-downloading."
+    "message": "ヒント: シームレスな自動ダウンロードのために、ブラウザのダウンロード設定で「保存する場所を尋ねる」をオフにしてください。"
   },
   "model_default": {
-    "message": "Default (Veo 3.1 - Fast)"
+    "message": "デフォルト (Veo 3.1 - 高速)"
   },
   "model_veo2_fast": {
-    "message": "Veo 2 - Fast"
+    "message": "Veo 2 - 高速"
   },
   "model_veo3_quality": {
-    "message": "Veo 3.1 - Quality"
+    "message": "Veo 3.1 - 品質"
   },
   "model_veo2_quality": {
-    "message": "Veo 2 - Quality"
+    "message": "Veo 2 - 品質"
   },
   "model_veo3_fast": {
-    "message": "Veo 3.1 - Fast"
+    "message": "Veo 3.1 - 高速"
   },
   "ratio_landscape": {
-    "message": "Landscape (16:9)"
+    "message": "横長 (16:9)"
   },
   "ratio_portrait": {
-    "message": "Portrait (9:16)"
+    "message": "縦長 (9:16)"
   },
   "mode_text_to_video_full": {
-    "message": "Text to Video"
+    "message": "テキストから動画"
   },
   "mode_image_to_video_full": {
-    "message": "Image to Video"
+    "message": "画像から動画"
   },
   "mode_images_full": {
-    "message": "Images"
+    "message": "画像"
   },
   "sort_order_az": {
     "message": "A-Z"
@@ -125,88 +123,88 @@
     "message": "Z-A"
   },
   "sort_order_newest": {
-    "message": "Newest"
+    "message": "新しい順"
   },
   "sort_order_oldest": {
-    "message": "Oldest"
+    "message": "古い順"
   },
   "detailed_log": {
-    "message": "Detailed Log"
+    "message": "詳細ログ"
   },
   "failed_tasks": {
-    "message": "Failed Tasks ({count})"
+    "message": "失敗したタスク ({count})"
   },
   "copy_failed_tasks": {
-    "message": "Copy Failed Prompts/Images"
+    "message": "失敗したプロンプト/画像をコピー"
   },
   "log_loading_selectors": {
-    "message": "Loading selectors..."
+    "message": "セレクターをロード中..."
   },
   "log_selectors_loaded": {
-    "message": "Selectors loaded successfully."
+    "message": "セレクターのロードに成功しました。"
   },
   "log_selectors_failed": {
-    "message": "Failed to load selectors."
+    "message": "セレクターのロードに失敗しました。"
   },
   "log_using_fallback_selectors": {
-    "message": "Using fallback selectors."
+    "message": "フォールバックセレクターを使用しています。"
   },
   "log_submit_success": {
-    "message": "Successfully submitted Prompt #{index}."
+    "message": "プロンプト #{index} の送信に成功しました。"
   },
   "log_submit_fail": {
-    "message": "Failed to submit Prompt."
+    "message": "プロンプトの送信に失敗しました。"
   },
   "log_policy_error_prompt": {
-    "message": "Policy error detected for prompt. Skipping..."
+    "message": "プロンプトでポリシーエラーが検出されました。スキップします..."
   },
   "log_policy_error_image": {
-    "message": "Policy error detected for image: {filename}. Skipping..."
+    "message": "画像: {filename} でポリシーエラーが検出されました。スキップします..."
   },
   "log_retry_task": {
-    "message": "Retrying Prompt #{index} (Retry {retry}/5)..."
+    "message": "プロンプト #{index} を再試行中（再試行 {retry}/5）..."
   },
   "log_skip_task": {
-    "message": "Skipping Prompt #{index} after {maxRetry} retries."
+    "message": "{maxRetry} 回の再試行後、プロンプト #{index} をスキップします。"
   },
   "log_page_reload_fail": {
-    "message": "Failed to reload page"
+    "message": "ページの再読み込みに失敗しました"
   },
   "log_settings_fail": {
-    "message": "Failed to apply settings"
+    "message": "設定の適用に失敗しました"
   },
   "log_scan_found_videos": {
-    "message": "Found {count} new videos. Starting download process..."
+    "message": "{count} 個の新しい動画が見つかりました。ダウンロードプロセスを開始します..."
   },
   "log_download_request_sent": {
-    "message": "New video downloaded!"
+    "message": "新しい動画がダウンロードされました！"
   },
   "log_download_request_failed": {
-    "message": "Download failed for {filename}: {error}"
+    "message": "{filename} のダウンロードに失敗しました: {error}"
   },
   "log_final_scan_started": {
-    "message": "FINISHED SENDING PROMPTS! Waiting for last videos to complete generation..."
+    "message": "プロンプトの送信が完了しました！最後の動画が生成完了するのを待っています..."
   },
   "log_final_scan_stopped": {
-    "message": "✅ Automation completed! Submitted {total} prompts successfully. Downloaded {downloaded} videos. Final scan finished."
+    "message": "✅ 自動化が完了しました！合計 {total} 個のプロンプトを正常に送信しました。{downloaded} 個の動画をダウンロードしました。最終スキャンが終了しました。"
   },
   "log_independent_scan_started": {
-    "message": "Independent video scanning started (every 5 seconds)."
+    "message": "独立した動画スキャンを開始しました（5秒ごと）。"
   },
   "log_independent_scan_stopped": {
-    "message": "Stopped independent video scanning."
+    "message": "独立した動画スキャンを停止しました。"
   },
   "log_images_sorted": {
-    "message": "Sorted {count} images by {order}."
+    "message": "{count} 枚の画像を {order} でソートしました。"
   },
   "log_file_read_error": {
-    "message": "Failed to read file: {filename}"
+    "message": "ファイルの読み取りに失敗しました: {filename}"
   },
   "select_images": {
-    "message": "Select Images"
+    "message": "画像を選択"
   },
   "selected_images": {
-    "message": "Selected: {count}"
+    "message": "選択済み: {count}"
   },
   "sort_az": {
     "message": "A-Z"
@@ -215,171 +213,171 @@
     "message": "Z-A"
   },
   "sort_newest": {
-    "message": "Newest"
+    "message": "新しい順"
   },
   "sort_oldest": {
-    "message": "Oldest"
+    "message": "古い順"
   },
   "donate_text": {
-    "message": "Buy Me a Coffee"
+    "message": "コーヒーを奢る"
   },
   "author_info": {
-    "message": "by Your Name"
+    "message": "作成者: Your Name"
   },
   "wrong_page_warning": {
-    "message": "Please navigate to labs.google/fx/tools/flow to use this extension."
+    "message": "この拡張機能を使用するには、labs.google/fx/tools/flow に移動してください。"
   },
   "theme_label": {
-    "message": "Theme:"
+    "message": "テーマ:"
   },
   "theme_vibrant_orange": {
-    "message": "Vibrant Orange (Dark)"
+    "message": "鮮やかなオレンジ（ダーク）"
   },
   "theme_sunset_gradient": {
-    "message": "Sunset Gradient"
+    "message": "サンセットグラデーション"
   },
   "theme_orange_purple": {
-    "message": "Orange + Purple (Techy)"
+    "message": "オレンジ + パープル（技術系）"
   },
   "theme_description_vibrant_orange": {
-    "message": "Modern dark theme with vibrant orange accents"
+    "message": "鮮やかなオレンジのアクセントが付いたモダンなダークテーマ"
   },
   "theme_description_sunset_gradient": {
-    "message": "Warm gradient background with coral tones"
+    "message": "コーラルトーンの温かいグラデーション背景"
   },
   "theme_description_orange_purple": {
-    "message": "Dark purple background with orange and gold highlights"
+    "message": "オレンジとゴールドのハイライトが付いたダークパープル背景"
   },
   "modal_title_image_prompt_editor": {
-    "message": "Manage Images and Prompts"
+    "message": "画像とプロンプトの管理"
   },
   "modal_search_placeholder": {
-    "message": "Search by image name or prompt..."
+    "message": "画像名またはプロンプトで検索..."
   },
   "modal_import_prompts": {
-    "message": "Import Prompts from File"
+    "message": "ファイルからプロンプトをインポート"
   },
   "modal_add_images": {
-    "message": "Add Images"
+    "message": "画像を追加"
   },
   "modal_delete_selected": {
-    "message": "Delete Selected"
+    "message": "選択したものを削除"
   },
   "modal_save_and_close": {
-    "message": "Save and Close"
+    "message": "保存して閉じる"
   },
   "modal_cancel": {
-    "message": "Cancel"
+    "message": "キャンセル"
   },
   "modal_column_number": {
-    "message": "No."
+    "message": "番号"
   },
   "modal_column_image": {
-    "message": "Image"
+    "message": "画像"
   },
   "modal_column_prompt": {
-    "message": "Prompt"
+    "message": "プロンプト"
   },
   "modal_column_status": {
-    "message": "Status"
+    "message": "ステータス"
   },
   "modal_status_needs_prompt": {
-    "message": "Needs prompt"
+    "message": "プロンプトが必要"
   },
   "modal_status_ready": {
-    "message": "Ready"
+    "message": "準備完了"
   },
   "modal_prompt_placeholder": {
-    "message": "Enter prompt for this image..."
+    "message": "この画像用のプロンプトを入力..."
   },
   "modal_no_images": {
-    "message": "No images yet. Click \"Add Images\" to get started."
+    "message": "画像がまだありません。「画像を追加」をクリックして開始してください。"
   },
   "modal_no_results": {
-    "message": "No matching images found"
+    "message": "一致する画像が見つかりませんでした"
   },
   "modal_import_success": {
-    "message": "Successfully imported {count} prompts!"
+    "message": "{count} 個のプロンプトを正常にインポートしました！"
   },
   "modal_import_error": {
-    "message": "Error reading file. Please check the file format."
+    "message": "ファイルの読み取りエラー。ファイル形式を確認してください。"
   },
   "banner_free_title": {
-    "message": "Free Plan"
+    "message": "無料プラン"
   },
   "banner_free_description": {
-    "message": "You're using SnapGen Flow completely free! Unlimited automation, no restrictions, all features included."
+    "message": "SnapGen Flowを完全に無料でご利用いただけます！無制限の自動化、制限なし、すべての機能が含まれています。"
   },
   "banner_free_badge": {
-    "message": "100% Free Forever"
+    "message": "永久に100%無料"
   },
   "banner_promo_title": {
-    "message": "Special Offer"
+    "message": "特別オファー"
   },
   "banner_promo_description": {
-    "message": "Explore our other SnapGen tools and extensions to boost your productivity!"
+    "message": "生産性を向上させるために、他のSnapGenツールや拡張機能を試してみてください！"
   },
   "banner_promo_link": {
-    "message": "Discover More"
+    "message": "さらに発見"
   },
   "banner_support_title": {
-    "message": "Need Help?"
+    "message": "ヘルプが必要ですか？"
   },
   "banner_support_description": {
-    "message": "Our support team is ready to help you. Contact us via Zalo or Telegram for quick assistance!"
+    "message": "当社のサポートチームがお手伝いします。迅速なサポートが必要な場合は、ZaloまたはTelegram経由でご連絡ください！"
   },
   "banner_free_compact": {
-    "message": "👑 100% Free Forever"
+    "message": "👑 永久に100%無料"
   },
   "banner_promo_marquee": {
-    "message": "Explore our other SnapGen tools and extensions to boost your productivity!"
+    "message": "生産性を向上させるために、他のSnapGenツールや拡張機能を試してみてください！"
   },
   "banner_support_compact_line1": {
-    "message": "Need Help?"
+    "message": "ヘルプが必要ですか？"
   },
   "banner_support_compact_line2": {
     "message": "Zalo | Telegram"
   },
   "generation_settings": {
-    "message": "Generation Settings"
+    "message": "生成設定"
   },
   "label_model": {
-    "message": "Model"
+    "message": "モデル"
   },
   "label_videos_per_prompt": {
-    "message": "Videos/prompt"
+    "message": "動画数/プロンプト"
   },
   "desc_videos_per_prompt": {
-    "message": "Number of videos to generate for each prompt"
+    "message": "各プロンプトに対して生成する動画の数"
   },
   "label_aspect_ratio": {
-    "message": "Aspect Ratio"
+    "message": "アスペクト比"
   },
   "hint_prompt_prefix": {
-    "message": "When you click Start, each line will automatically be prefixed with \"Prompt #n:\""
+    "message": "「開始」をクリックすると、各行に自動的に「Prompt #n:」が接頭辞として追加されます"
   },
   "label_progress": {
-    "message": "Progress"
+    "message": "進捗"
   },
   "advanced_settings": {
-    "message": "Advanced Settings"
+    "message": "高度な設定"
   },
   "refresh_configuration_title": {
-    "message": "Refresh Configuration"
+    "message": "設定の更新"
   },
   "refresh_configuration_desc": {
-    "message": "Force reload models, aspect ratios, and other dynamic settings from remote server. Use this if you don't see the latest updates."
+    "message": "リモートサーバーからモデル、アスペクト比、その他の動的な設定を強制的に再ロードします。最新の更新が表示されない場合に使用してください。"
   },
   "button_refresh": {
-    "message": "Refresh"
+    "message": "更新"
   },
   "button_refreshing": {
-    "message": "Refreshing..."
+    "message": "更新中..."
   },
   "refreshing_message": {
-    "message": "⏳ Fetching latest config from server..."
+    "message": "⏳ サーバーから最新の設定を取得中..."
   },
   "discover_other_tools": {
-    "message": "Discover Other Tools"
+    "message": "その他のツールを発見"
   }
 }
