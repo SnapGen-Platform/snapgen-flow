@@ -32,7 +32,7 @@
             "displayName": "Discord",
             "url": "https://discord.gg/5XUmXUMeuT",
             "qrCode": "/images/qr-discord.png",
-            "enabled": true,
+            "enabled": false,
             "order": 3
           }
         ]
