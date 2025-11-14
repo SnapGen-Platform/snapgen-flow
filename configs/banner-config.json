@@ -26,7 +26,7 @@
         "color": "#8ab4f8",
         "link": "https://snapgens.com/tools/auto-flow",
         "badge": "popular",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "SnapGen Whisk",
