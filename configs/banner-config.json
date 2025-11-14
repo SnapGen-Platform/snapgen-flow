@@ -16,7 +16,7 @@
             "displayName": "Zalo",
             "url": "https://zalo.me/g/qrimzl692",
             "qrCode": "/images/qr-zalo.png",
-            "enabled": true,
+            "enabled": false,
             "order": 1
           },
           {
