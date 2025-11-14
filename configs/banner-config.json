@@ -16,7 +16,7 @@
             "displayName": "Zalo",
             "url": "https://zalo.me/g/qrimzl692",
             "qrCode": "/images/qr-zalo.png",
-            "enabled": false,
+            "enabled": true,
             "order": 1
           },
           {
@@ -30,9 +30,9 @@
           {
             "platform": "discord",
             "displayName": "Discord",
-            "url": "https://discord.gg/snapgen",
+            "url": "https://discord.gg/5XUmXUMeuT",
             "qrCode": "/images/qr-discord.png",
-            "enabled": false,
+            "enabled": true,
             "order": 3
           }
         ]
@@ -51,7 +51,7 @@
         "color": "#8ab4f8",
         "link": "https://snapgens.com/tools/auto-flow",
         "badge": "popular",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "Auto Whisk",
@@ -60,7 +60,7 @@
         "color": "#81c995",
         "link": "https://snapgens.com/tools/auto-whisk",
         "badge": "popular",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "Word & Character Counter",
@@ -68,7 +68,7 @@
         "icon": "Type",
         "color": "#fdd663",
         "link": "https://snapgens.com/tools/word-counter",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "Cookie Exporter",
@@ -76,7 +76,7 @@
         "icon": "Cookie",
         "color": "#f28b82",
         "link": "https://snapgens.com/tools/cookie-exporter",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "Image Optimizer Pro",
@@ -85,7 +85,7 @@
         "color": "#ff6b9d",
         "link": "https://snapgens.com/tools/image-optimizer",
         "badge": "new",
-        "enabled": true
+        "enabled": false
       },
       {
         "name": "JSON Formatter",
@@ -94,7 +94,7 @@
         "color": "#a8c7fa",
         "link": "https://snapgens.com/tools/json-formatter",
         "badge": "hot",
-        "enabled": true
+        "enabled": false
       }
     ]
   }
