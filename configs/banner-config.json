@@ -6,7 +6,7 @@
         "link": "https://snapgens.com/upgrade",
         "linkText": "Discover More",
         "marqueeText": "🎉 Flash Sale: Get 80% OFF all SnapGen Premium Tools! Limited time offer!",
-        "enabled": true
+        "enabled": false
       },
       "support": {
         "enabled": true,
