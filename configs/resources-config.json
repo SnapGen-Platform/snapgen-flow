@@ -79,7 +79,7 @@
         "channel": "SnapGens",
         "type": "youtube",
         "badge": "HOT",
-        "enabled": true
+        "enabled": false
       },
       {
         "id": "image-to-video",
