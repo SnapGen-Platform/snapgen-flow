@@ -31,7 +31,7 @@
         "url": "https://www.snapgens.com/getting-started",
         "type": "github",
         "badge": "NEW",
-        "enabled": true
+        "enabled": false
       },
       {
         "id": "common-issues-en",
@@ -96,7 +96,7 @@
         "duration": "3:45",
         "channel": "SnapGens",
         "type": "youtube",
-        "enabled": true
+        "enabled": false
       },
       {
         "id": "advanced-tips",
