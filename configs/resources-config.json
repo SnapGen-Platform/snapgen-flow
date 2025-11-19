@@ -13,7 +13,7 @@
           "en": "Create your first AI videos in 5 minutes",
           "vi": "Create your first AI videos in 5 minutes"
         },
-        "url": "https://github.com/SnapGen-Platform/snapgen-flow/blob/main/docs/en/getting-started.md",
+        "url": "https://www.snapgens.com/getting-started",
         "type": "github",
         "badge": "NEW",
         "enabled": true
@@ -28,7 +28,7 @@
           "en": "Tạo video AI đầu tiên trong 5 phút",
           "vi": "Tạo video AI đầu tiên trong 5 phút"
         },
-        "url": "https://github.com/SnapGen-Platform/snapgen-flow/blob/main/docs/vi/getting-started.md",
+        "url": "https://www.snapgens.com/getting-started",
         "type": "github",
         "badge": "NEW",
         "enabled": true
@@ -43,7 +43,7 @@
           "en": "Quick fixes for common problems",
           "vi": "Quick fixes for common problems"
         },
-        "url": "https://github.com/SnapGen-Platform/snapgen-flow/blob/main/docs/en/common-issues.md",
+        "url": "https://www.snapgens.com/common-issues",
         "type": "github",
         "enabled": true
       },
@@ -57,7 +57,7 @@
           "en": "Giải pháp nhanh cho các vấn đề thường gặp",
           "vi": "Giải pháp nhanh cho các vấn đề thường gặp"
         },
-        "url": "https://github.com/SnapGen-Platform/snapgen-flow/blob/main/docs/vi/common-issues.md",
+        "url": "https://www.snapgens.com/common-issues",
         "type": "github",
         "enabled": true
       }
