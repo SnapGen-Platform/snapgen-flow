@@ -85,12 +85,20 @@
       "useEmbedded": false
     }
   ],
-  "models": [
+  "models": [ 
     {
       "id": "veo3_fast",
       "labelKey": "model_veo3_fast",
       "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Fast')]",
       "isDefault": true,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "veo3_fast_lower",
+      "labelKey": "model_veo3_fast_lower",
+      "xpath": "//div[@role='option' and contains(., 'Veo 3.1 - Fast [Lower Priority]')]",
+      "isDefault": false,
       "enabled": true,
       "badge": null
     },
