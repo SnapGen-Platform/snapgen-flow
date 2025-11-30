@@ -379,5 +379,8 @@
   },
   "discover_other_tools": {
     "message": "その他のツールを発見"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - 高速 [低優先度]"
   }
 }

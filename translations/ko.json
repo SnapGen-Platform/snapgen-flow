@@ -379,5 +379,8 @@
   },
   "discover_other_tools": {
     "message": "다른 도구 발견"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - 빠름 [낮은 우선순위]"
   }
 }

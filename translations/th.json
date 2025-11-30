@@ -379,5 +379,8 @@
   },
   "discover_other_tools": {
     "message": "ค้นพบเครื่องมืออื่น ๆ"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - เร็ว [ลำดับความสำคัญต่ำกว่า]"
   }
 }

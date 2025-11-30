@@ -379,5 +379,8 @@
   },
   "discover_other_tools": {
     "message": "Découvrir d'Autres Outils"
+  },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - Rapide [Priorité basse]"
   }
 }
