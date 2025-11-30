@@ -116,6 +116,9 @@
   "model_default": {
     "message": "Default (Veo 3.1 - Fast)"
   },
+  "model_veo3_fast_lower": {
+    "message": "Veo 3.1 - Fast [Lower Priority]"
+  },
   "model_veo2_fast": {
     "message": "Veo 2 - Fast"
   },
