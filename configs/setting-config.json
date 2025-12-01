@@ -228,7 +228,7 @@
     "IMAGE_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='photo_spark']]",
     "TEXT_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='text_analysis']]",
     "INGREDIENTS_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='photo_merge_auto']]",
-    "CREATE_IMAGE_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='add_photo_alternate']]"
+    "CREATE_IMAGE_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='add_photo_alternate']]",
     "PROMPT_TEXTAREA_ID": "PINHOLE_TEXT_AREA_ELEMENT_ID",
     "GENERATE_BUTTON_XPATH": "//button[.//i[text()='arrow_forward']] | (//button[.//i[normalize-space(text())='arrow_forward']])",
     "INITIAL_OVERLAY_DIV_XPATH": "//div[contains(@class, 'kSkErZ')]",
