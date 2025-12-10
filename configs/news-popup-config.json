@@ -2,7 +2,7 @@
   "enabled": true,
   "id": "news-v3.2.0",
   "shape": "shield",
-  "position": "top",
+  "position": "center",
   "icon": "sparkles",
   "title": "What's New in v3.2!",
   "content": "✓ Full Image-to-Video modes\n✓ Multi-line prompts support",
@@ -14,3 +14,4 @@
   "content_vi": "✓ Đầy đủ chế độ Image-to-Video\n✓ Hỗ trợ prompt nhiều dòng",
   "linkText_vi": ""
 }
+
