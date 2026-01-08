@@ -127,6 +127,32 @@
       "badge": null
     }
   ],
+  "imageModels": [
+    {
+      "id": "imagen4",
+      "labelKey": "image_model_imagen4",
+      "xpath": "//div[@role='option' and .//span[contains(text(), 'Imagen 4')]]",
+      "isDefault": true,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "nano_banana",
+      "labelKey": "image_model_nano_banana",
+      "xpath": "//div[@role='option' and .//span[contains(text(), 'Nano Banana') and not(contains(text(), 'Pro'))]]",
+      "isDefault": false,
+      "enabled": true,
+      "badge": null
+    },
+    {
+      "id": "nano_banana_pro",
+      "labelKey": "image_model_nano_banana_pro",
+      "xpath": "//div[@role='option' and .//span[contains(text(), 'Nano Banana Pro')]]",
+      "isDefault": false,
+      "enabled": true,
+      "badge": null
+    }
+  ],
   "aspectRatios": [
     {
       "id": "landscape",
