@@ -224,6 +224,9 @@
   ],
   "selectors": {
     "NEW_PROJECT_BUTTON_XPATH": "//button[.//i[normalize-space(text())='add_2']] | (//button[.//i[normalize-space(.)='add_2']])",
+    "VIDEOS_TAB_BUTTON_XPATH": "//button[@role='radio' and .//i[contains(@class, 'google-symbols') and text()='videocam']]",
+    "IMAGES_TAB_BUTTON_XPATH": "//button[@role='radio' and .//i[contains(@class, 'google-symbols') and text()='image']]",
+    "BLOCKING_DIALOG_DISMISS_BUTTON_XPATH": "//div[@role='dialog']//button[contains(text(), 'I agree') or contains(text(), 'Đồng ý') or contains(text(), 'OK') or contains(text(), 'Got it') or contains(text(), 'Continue') or contains(text(), 'Accept') or contains(text(), 'Understood') or contains(text(), 'Confirm') or contains(text(), 'Tiếp tục') or contains(text(), 'Xác nhận')]",
     "MODE_DROPDOWN_XPATH": "//button[@role='combobox' and .//i[text()='arrow_drop_down']]",
     "IMAGE_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='photo_spark']]",
     "TEXT_TO_VIDEO_MODE_XPATH": "//div[@role='option' and .//i[normalize-space(text())='text_analysis']]",
