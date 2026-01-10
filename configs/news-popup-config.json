@@ -1,17 +1,16 @@
 {
   "enabled": true,
-  "id": "news-v3.2.0",
+  "id": "news-v4.0.40",
   "shape": "shield",
-  "position": "center",
+  "position": "top",
   "icon": "sparkles",
-  "title": "What's New in v3.2!",
-  "content": "✓ Full Image-to-Video modes\n✓ Multi-line prompts support",
+  "title": "🎨 Image Studio is HERE!",
+  "content": "✓ Text-to-Image automation\n✓ Auto-download images\n✓ Imagen 4 & Nano Banana models\n✓ Quality: 1K, 2K, 4K options",
   "linkText": "",
   "linkUrl": "",
   "dismissable": true,
   "showOnce": true,
-  "title_vi": "Có gì mới trong v3.2!",
-  "content_vi": "✓ Đầy đủ chế độ Image-to-Video\n✓ Hỗ trợ prompt nhiều dòng",
+  "title_vi": "🎨 Image Studio đã có!",
+  "content_vi": "✓ Tự động hóa Text-to-Image\n✓ Tự động tải ảnh\n✓ Imagen 4 & Nano Banana\n✓ Chất lượng: 1K, 2K, 4K",
   "linkText_vi": ""
 }
-
